@@ -18,6 +18,14 @@
                 <x-label for="email" value="{{ __('Email') }}" />
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
             </div>
+            <div class="mt-4">
+                <x-label for="fecha de nacimiento" value="{{ __('Fecha de Nacimiento') }}" />
+                <x-input id="fecha_nac" class="block mt-1 w-full" type="date" name="fecha_nac" required autocomplete="fecha_nac" />
+            </div>
+            <div class="mt-4">
+                <x-label for="ci" value="{{ __('CI') }}" />
+                <x-input id="ci" class="block mt-1 w-full" type="text" name="ci" required autocomplete="ci" />
+            </div>
 
             <div class="mt-4">
                 <x-label for="password" value="{{ __('Password') }}" />

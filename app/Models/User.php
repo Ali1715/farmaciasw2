@@ -43,7 +43,7 @@ class User extends Authenticatable
      * @var array<int, string>
      */
 
-     protected $table = 'user';
+     protected $table = 'users';
 	protected $primaryKey = 'id';
 	public $incrementing = true;
 	public $timestamps = false;
